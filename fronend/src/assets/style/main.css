@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+    --main-dark-color: #1565C0 ;
+    --main-light-color: #eef2f6 ;
+  }
+
+
+.light-color{
+    color: #1565C0!important;
+    transition: 0.3s;
+}
+.input-outline-light-color{
+    color: black !important;
+    transition: 0.3s;
+}
+.section-light-color{
+    background-color: white !important;
+    transition: 0.3s;
+}
+.background-light-color{
+    background-color: #eef2f6 !important;
+    transition: 0.3s;
+}
+  
+
+.dark-color{
+    color: #3fb0ac !important;
+    transition: 0.3s;
+}
+.input-outline-dark-color{
+    color:white !important;
+    transition: 0.3s;
+}
+.section-dark-color{
+    background-color: #010f17 !important;
+    transition: 0.3s;
+}
+.background-dark-color{
+    background-color: #010606 !important;
+    transition: 0.3s;
+}
+  
+
+
+*{
+    font-family: Cairo,droid,Arial!important;
+}
+
+#app{
+    min-height: 100vh;
+}
+
+.peimary-bg-color{
+    background-color: #efefef ;
+}
+.peimary-color{
+    color: var(--main-color);
+}
+.register-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.register-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 550px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: white;
+}
+
+.register-box-header{
+    text-align: center;
+}
+.register-box-header h3{
+    margin-bottom: 8px;
+    color: var(--main-color);
+}
+.register-box-header p{
+    color: rgba(0,0,0,.6);
+}
+
+.register-box-inputs{
+    width: 100%;
+}
+
+.register-box-inputs .v-input{
+    margin-bottom: 24px;
+}
+
+.font-light{
+    color: #838383;
+}
+@media only screen and (max-width: 960px){
+
+    .register-box{
+        width: 100%;
+        border: none;
+    }
+    
+  }
